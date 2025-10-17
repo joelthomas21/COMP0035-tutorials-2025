@@ -4,6 +4,7 @@
 
 globalTEST = 'This is a global variable'
 
+
 def inCorrect_functionName():
     print('This is a function with a poorly formatted name')
 
@@ -14,6 +15,7 @@ def missing_docstring(message):
     result = "message printed"
     return result
 
+
 def incorrect_spacing_between_functions():
     print('This function has incorrect spacing between it and the function above')
 
@@ -23,6 +25,6 @@ def incorrect_spacing_between_functions():
 
 
 def incorrect_whitespace(x, y):
-    result =  x+y
+    result = x + y
     print(result)
     return result
